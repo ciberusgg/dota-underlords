@@ -1,0 +1,37 @@
+"AppState"
+{
+	"appid"		"1046930"
+	"Universe"		"1"
+	"name"		"Dota Underlords"
+	"StateFlags"		"4"
+	"installdir"		"Underlords"
+	"LastUpdated"		"1598303363"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"3072092728"
+	"buildid"		"5444995"
+	"LastOwner"		"76561199005609651"
+	"BytesToDownload"		"1964536832"
+	"BytesDownloaded"		"1964536832"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1046931"
+		{
+			"manifest"		"8466122932224181991"
+		}
+		"1046932"
+		{
+			"manifest"		"8850055381257164957"
+		}
+	}
+	"MountedDepots"
+	{
+		"1046931"		"8466122932224181991"
+		"1046932"		"8850055381257164957"
+	}
+	"UserConfig"
+	{
+	}
+}
