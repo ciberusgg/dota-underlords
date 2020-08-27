@@ -1,3 +1,150 @@
- .private-action                   | 2 +-
- steamapps/appmanifest_1046930.acf | 6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ .private-action                                    |    2 +-
+ game/bin/win64/animationsystem.dll                 |    2 +-
+ game/bin/win64/assetpreview.dll                    |    2 +-
+ game/bin/win64/bakedlodbuilder.dll                 |    2 +-
+ game/bin/win64/bugreporter_filequeue.dll           |    2 +-
+ game/bin/win64/econitemtoolmodel.dll               |    2 +-
+ game/bin/win64/engine2.dll                         |    2 +-
+ game/bin/win64/environmentmapbuilder.dll           |    2 +-
+ game/bin/win64/filesystem_stdio.dll                |    2 +-
+ game/bin/win64/helpsystem.dll                      |    2 +-
+ game/bin/win64/imemanager.dll                      |    2 +-
+ game/bin/win64/inputsystem.dll                     |    2 +-
+ game/bin/win64/localize.dll                        |    2 +-
+ game/bin/win64/materialsystem2.dll                 |    2 +-
+ game/bin/win64/meshsystem.dll                      |    2 +-
+ game/bin/win64/modelprocessing.dll                 |    2 +-
+ game/bin/win64/navsystem.dll                       |    2 +-
+ game/bin/win64/networksystem.dll                   |    2 +-
+ game/bin/win64/p4lib.dll                           |    2 +-
+ game/bin/win64/panorama_nov8.dll                   |    2 +-
+ game/bin/win64/panorama_text_pango.dll             |    2 +-
+ game/bin/win64/particles.dll                       |    2 +-
+ game/bin/win64/physicsbuilder.dll                  |    2 +-
+ game/bin/win64/propertyeditor.dll                  |    2 +-
+ game/bin/win64/renderingpipelines.dll              |    2 +-
+ game/bin/win64/rendersystemdx11.dll                |    2 +-
+ game/bin/win64/rendersystemdx9.dll                 |    2 +-
+ game/bin/win64/rendersystemempty.dll               |    2 +-
+ game/bin/win64/rendersystemgl.dll                  |    2 +-
+ game/bin/win64/resourcecompiler.dll                |    2 +-
+ game/bin/win64/resourcesystem.dll                  |    2 +-
+ game/bin/win64/scenefilecache.dll                  |    2 +-
+ game/bin/win64/scenesystem.dll                     |    2 +-
+ game/bin/win64/schemasystem.dll                    |    2 +-
+ game/bin/win64/serverbrowser.dll                   |    2 +-
+ game/bin/win64/soundsystem.dll                     |    2 +-
+ game/bin/win64/subtools/bugreporter_subtool.dll    |    2 +-
+ game/bin/win64/subtools/convarhelper_subtool.dll   |    2 +-
+ game/bin/win64/subtools/gpuprofiler_subtool.dll    |    2 +-
+ .../subtools/resourcesystemprofiler_subtool.dll    |    2 +-
+ .../win64/subtools/scenesystemdebugger_subtool.dll |    2 +-
+ game/bin/win64/tier0.dll                           |    2 +-
+ game/bin/win64/toolframework2.dll                  |    2 +-
+ game/bin/win64/toolscript.dll                      |    2 +-
+ game/bin/win64/underlords.exe                      |    2 +-
+ game/bin/win64/unitlib.dll                         |    2 +-
+ game/bin/win64/valve_avi.dll                       |    2 +-
+ game/bin/win64/valve_bink.dll                      |    2 +-
+ game/bin/win64/valve_wmf.dll                       |    2 +-
+ game/bin/win64/vconcomm.dll                        |    2 +-
+ game/bin/win64/vconsole2.exe                       |    4 +-
+ game/bin/win64/vfx_dx11.dll                        |    2 +-
+ game/bin/win64/vfx_dx9.dll                         |    2 +-
+ game/bin/win64/vfx_gl.dll                          |    2 +-
+ game/bin/win64/vfxcompile.dll                      |    2 +-
+ game/bin/win64/vgui2.dll                           |    2 +-
+ game/bin/win64/vguirendersurface.dll               |    2 +-
+ game/bin/win64/visbuilder.dll                      |    2 +-
+ game/bin/win64/vphysics2.dll                       |    2 +-
+ game/bin/win64/vr.dll                              |    2 +-
+ game/bin/win64/vscript.dll                         |    2 +-
+ game/bin/win64/vstdlib.dll                         |    2 +-
+ game/bin/win64/vwatch_service.dll                  |    2 +-
+ game/bin/win64/workshop.dll                        |    2 +-
+ game/bin/win64/worldrenderer.dll                   |    2 +-
+ game/bin/win64/worldrendererbuilder.dll            |    2 +-
+ game/dac/bin/win64/client.dll                      |    4 +-
+ game/dac/bin/win64/host.dll                        |    4 +-
+ game/dac/bin/win64/server.dll                      |    4 +-
+ game/dac/pak01_005.vpk                             |    4 +-
+ game/dac/pak01_008.vpk                             |    4 +-
+ game/dac/pak01_009.vpk                             |    4 +-
+ game/dac/pak01_012.vpk                             |    4 +-
+ game/dac/pak01_013.vpk                             |    4 +-
+ game/dac/pak01_014.vpk                             |    4 +-
+ game/dac/pak01_015.vpk                             |    4 +-
+ game/dac/pak01_016.vpk                             |    4 +-
+ game/dac/pak01_017.vpk                             |    4 +-
+ game/dac/pak01_018.vpk                             |    3 +
+ game/dac/pak01_019.vpk                             |    3 +
+ game/dac/pak01_dir.vpk                             |    4 +-
+ game/dac/panorama/localization/dac_brazilian.txt   |  490 ++++--
+ game/dac/panorama/localization/dac_bulgarian.txt   |  764 +++++----
+ game/dac/panorama/localization/dac_czech.txt       | 1142 ++++++++------
+ game/dac/panorama/localization/dac_danish.txt      | 1070 ++++++++-----
+ game/dac/panorama/localization/dac_dutch.txt       | 1110 +++++++------
+ game/dac/panorama/localization/dac_english.txt     |  502 ++++--
+ game/dac/panorama/localization/dac_finnish.txt     |  502 ++++--
+ game/dac/panorama/localization/dac_french.txt      |  640 +++++---
+ game/dac/panorama/localization/dac_german.txt      |  528 +++++--
+ game/dac/panorama/localization/dac_greek.txt       | 1126 +++++++------
+ game/dac/panorama/localization/dac_hungarian.txt   | 1092 ++++++++-----
+ game/dac/panorama/localization/dac_italian.txt     | 1498 ++++++++++--------
+ game/dac/panorama/localization/dac_japanese.txt    |  490 ++++--
+ game/dac/panorama/localization/dac_koreana.txt     |  508 ++++--
+ game/dac/panorama/localization/dac_latam.txt       |  496 ++++--
+ game/dac/panorama/localization/dac_norwegian.txt   | 1074 ++++++++-----
+ game/dac/panorama/localization/dac_polish.txt      | 1448 +++++++++--------
+ game/dac/panorama/localization/dac_portuguese.txt  | 1102 +++++++------
+ game/dac/panorama/localization/dac_romanian.txt    | 1652 +++++++++++---------
+ game/dac/panorama/localization/dac_russian.txt     |  504 ++++--
+ game/dac/panorama/localization/dac_schinese.txt    |  512 ++++--
+ game/dac/panorama/localization/dac_spanish.txt     |  504 ++++--
+ game/dac/panorama/localization/dac_swedish.txt     | 1375 +++++++++-------
+ game/dac/panorama/localization/dac_tchinese.txt    |  506 ++++--
+ game/dac/panorama/localization/dac_thai.txt        | 1176 ++++++++------
+ game/dac/panorama/localization/dac_turkish.txt     | 1096 +++++++------
+ game/dac/panorama/localization/dac_ukrainian.txt   | 1128 +++++++------
+ game/dac/panorama/localization/dac_vietnamese.txt  | 1126 +++++++------
+ game/dac/resource/dac_common_brazilian.txt         |  Bin 59584 -> 29541 bytes
+ game/dac/resource/dac_common_bulgarian.txt         |  Bin 60292 -> 35923 bytes
+ game/dac/resource/dac_common_czech.txt             |  Bin 60436 -> 30537 bytes
+ game/dac/resource/dac_common_danish.txt            |  Bin 58264 -> 28823 bytes
+ game/dac/resource/dac_common_dutch.txt             |  Bin 59086 -> 29036 bytes
+ game/dac/resource/dac_common_english.txt           |  Bin 57346 -> 28165 bytes
+ game/dac/resource/dac_common_finnish.txt           |  Bin 57898 -> 28658 bytes
+ game/dac/resource/dac_common_french.txt            |  Bin 60712 -> 30199 bytes
+ game/dac/resource/dac_common_german.txt            |  Bin 59116 -> 29198 bytes
+ game/dac/resource/dac_common_greek.txt             |  Bin 59814 -> 34963 bytes
+ game/dac/resource/dac_common_hungarian.txt         |  Bin 59190 -> 29990 bytes
+ game/dac/resource/dac_common_italian.txt           |  Bin 60084 -> 29556 bytes
+ game/dac/resource/dac_common_japanese.txt          |  Bin 51848 -> 31980 bytes
+ game/dac/resource/dac_common_koreana.txt           |  Bin 50736 -> 29429 bytes
+ game/dac/resource/dac_common_latam.txt             |  Bin 59836 -> 29544 bytes
+ game/dac/resource/dac_common_norwegian.txt         |  Bin 57786 -> 28553 bytes
+ game/dac/resource/dac_common_polish.txt            |  Bin 59350 -> 29567 bytes
+ game/dac/resource/dac_common_portuguese.txt        |  Bin 59708 -> 29519 bytes
+ game/dac/resource/dac_common_romanian.txt          |  Bin 60286 -> 30011 bytes
+ game/dac/resource/dac_common_russian.txt           |  Bin 58698 -> 35059 bytes
+ game/dac/resource/dac_common_schinese.txt          |  Bin 49308 -> 28023 bytes
+ game/dac/resource/dac_common_spanish.txt           |  Bin 59986 -> 29612 bytes
+ game/dac/resource/dac_common_swedish.txt           |  Bin 58168 -> 28830 bytes
+ game/dac/resource/dac_common_tchinese.txt          |  Bin 49500 -> 28331 bytes
+ game/dac/resource/dac_common_thai.txt              |  Bin 57958 -> 40823 bytes
+ game/dac/resource/dac_common_turkish.txt           |  Bin 58912 -> 29811 bytes
+ game/dac/resource/dac_common_ukrainian.txt         |  Bin 58666 -> 35012 bytes
+ game/dac/resource/dac_common_vietnamese.txt        |  Bin 58256 -> 31013 bytes
+ game/dac/scripts/abilities.vdacdefs_c              |    4 +-
+ game/dac/scripts/bots_personalities.vdacdefs_c     |    4 +-
+ game/dac/scripts/items.vdacdefs_c                  |    4 +-
+ game/dac/scripts/modifiers.vdacdefs_c              |    4 +-
+ game/dac/scripts/synergies.vdacdefs_c              |    4 +-
+ game/dac/scripts/tutorialstates.vdacdefs_c         |    4 +-
+ game/dac/scripts/units.vdacdefs_c                  |    4 +-
+ game/dac/scripts/waves.vdacdefs_c                  |    4 +-
+ game/dac/steam.inf                                 |   12 +-
+ game/dac_desktop/pak01_002.vpk                     |    4 +-
+ game/dac_desktop/pak01_dir.vpk                     |    4 +-
+ steamapps/appmanifest_1046930.acf                  |   18 +-
+ 149 files changed, 15866 insertions(+), 9557 deletions(-)
