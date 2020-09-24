@@ -1,9 +1,17 @@
- game/bin/win64/engine2.dll        |  2 +-
- game/bin/win64/networksystem.dll  |  2 +-
- game/bin/win64/vgui2.dll          |  2 +-
- game/dac/bin/win64/client.dll     |  2 +-
- game/dac/bin/win64/server.dll     |  2 +-
- game/dac/steam.inf                | 12 ++++++------
- steamapps/appmanifest_1046930.acf | 12 ++++++------
- steamapps/libraryfolders.vdf      |  2 +-
- 8 files changed, 18 insertions(+), 18 deletions(-)
+ game/bin/win64/engine2.dll                       |   2 +-
+ game/bin/win64/networksystem.dll                 |   2 +-
+ game/bin/win64/vgui2.dll                         |   2 +-
+ game/dac/bin/win64/client.dll                    |   2 +-
+ game/dac/bin/win64/server.dll                    |   4 +-
+ game/dac/pak01_003.vpk                           |   4 +-
+ game/dac/pak01_007.vpk                           |   4 +-
+ game/dac/pak01_018.vpk                           |   4 +-
+ game/dac/pak01_dir.vpk                           |   2 +-
+ game/dac/panorama/localization/dac_norwegian.txt | 140 +++++++++++------------
+ game/dac/panorama/localization/dac_schinese.txt  |   2 +-
+ game/dac/scripts/abilities.vdacdefs_c            |   4 +-
+ game/dac/scripts/units.vdacdefs_c                |   4 +-
+ game/dac/steam.inf                               |  12 +-
+ steamapps/appmanifest_1046930.acf                |  18 +--
+ steamapps/libraryfolders.vdf                     |   2 +-
+ 16 files changed, 104 insertions(+), 104 deletions(-)

@@ -5,13 +5,13 @@
 	"name"		"Dota Underlords"
 	"StateFlags"		"4"
 	"installdir"		"Underlords"
-	"LastUpdated"		"1600137069"
+	"LastUpdated"		"1600979504"
 	"UpdateResult"		"0"
-	"SizeOnDisk"		"3170044364"
-	"buildid"		"5544944"
+	"SizeOnDisk"		"3170057157"
+	"buildid"		"5591327"
 	"LastOwner"		"76561199005609651"
-	"BytesToDownload"		"12061472"
-	"BytesDownloaded"		"12061472"
+	"BytesToDownload"		"201580512"
+	"BytesDownloaded"		"201580512"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -19,13 +19,13 @@
 	{
 		"1046931"
 		{
-			"manifest"		"5717426179835933029"
-			"size"		"2434256718"
+			"manifest"		"8478453363522017286"
+			"size"		"2434264391"
 		}
 		"1046932"
 		{
-			"manifest"		"2225988239977601092"
-			"size"		"735787646"
+			"manifest"		"4696141282898643585"
+			"size"		"735792766"
 		}
 	}
 	"UserConfig"
